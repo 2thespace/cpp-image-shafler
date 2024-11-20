@@ -1,6 +1,12 @@
 # cpp-image-shafler
 put second image into first with pixel shuffle
 
+# Build
+'''
+cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
+cmake --build build
+'''
+
 # Example 
 
 ## Encode
