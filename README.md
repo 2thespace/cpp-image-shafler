@@ -9,11 +9,11 @@ Key word: hello_world
 
 First image
 
-![alt_text]()
+![first_text](./example/first_image.png?raw=true)
 
 Second Image
 
-![alt_text](../first_image.png?raw=true)
+![second image](./example/second_image.png?raw=true)
 
 ```
 ./encoder ../example/first_image.png ../example/second_image.png hello_world ../example/encode_result.png
@@ -22,7 +22,7 @@ Second Image
 
 Result
 
-![alt_text](../encode_result.png?raw=true)
+![encode image](./example/encode_result.png?raw=true)
 
 ## Decode 
 
@@ -30,7 +30,7 @@ Key word: hello_world
 
 Input
 
-![alt_text](../encode_result.png?raw=true)
+![encode image](./example/encode_result.png?raw=true)
 
 ```
 ./decoder ../example/encode_result.png hello_world ../example/decode_result.png
@@ -38,5 +38,5 @@ Input
 
 Result
 
-![alt_text](../decode_result.png?raw=true)
+![decode image](./example/decode_result.png?raw=true)
  
